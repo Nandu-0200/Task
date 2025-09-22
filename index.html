@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Bookstore</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <h1>Page & Pixel Bookstore</h1>
+    <div class="controls">
+      <input type="text" placeholder="Search books, authors..." />
+      <select>
+        <option>All Categories</option>
+        <option>Fiction</option>
+        <option>Technology</option>
+        <option>Travel</option>
+      </select>
+    </div>
+  </header>
+
+  <!-- Main content -->
+  <main>
+    <!-- Books grid -->
+    <section class="grid">
+      <article class="book">
+        <img src="cover1.jpg" alt="Book Cover" class="cover" />
+        <div class="meta">
+          <h3>The Last Library</h3>
+          <p class="author">by A. Verma</p>
+          <p class="desc">A lyrical tale of books, memory and the slow city.</p>
+          <div class="foot">
+            <div>₹249</div>
+            <button>Add to Cart</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="book">
+        <img src="cover2.jpg" alt="Book Cover" class="cover" />
+        <div class="meta">
+          <h3>Code & Conscience</h3>
+          <p class="author">by S. Reddy</p>
+          <p class="desc">Ethical engineering and practical case studies for modern devs.</p>
+          <div class="foot">
+            <div>₹499</div>
+            <button>Add to Cart</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="book">
+        <img src="cover3.jpg" alt="Book Cover" class="cover" />
+        <div class="meta">
+          <h3>Spice Trails</h3>
+          <p class="author">by M. Iqbal</p>
+          <p class="desc">A culinary travelogue through markets, kitchens and history.</p>
+          <div class="foot">
+            <div>₹349</div>
+            <button>Add to Cart</button>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- Cart -->
+    <aside class="cart">
+      <h2>Cart</h2>
+      <ul>
+        <li>The Last Library — ₹249</li>
+        <li>Code & Conscience — ₹499</li>
+      </ul>
+      <div class="cart-total">Total: ₹748</div>
+    </aside>
+  </main>
+</body>
+</html>
